@@ -9,16 +9,16 @@ In cricket, there are several types of sponsors that support teams and events. S
 - Title Sponsor: This is the main sponsor of a team or event and usually has their name included in the official title. For example, TATA is the title sponsor of IPL 2022.
 
 
--Official Partners: These are companies that have an official partnership with a team or event and provide financial support in exchange for branding and advertising opportunities. For example, Dream11, Unacademy, CRED, Upstox, RuPay and Swiggy Instamart are official partners of IPL 2022.
+Official Partners: These are companies that have an official partnership with a team or event and provide financial support in exchange for branding and advertising opportunities. For example, Dream11, Unacademy, CRED, Upstox, RuPay and Swiggy Instamart are official partners of IPL 2022.
 
 
--Broadcasters: These are media companies that have the rights to broadcast matches and events. For example, Star Sports is the official broadcaster of IPL 2022.
+Broadcasters: These are media companies that have the rights to broadcast matches and events. For example, Star Sports is the official broadcaster of IPL 2022.
 
 
--Kit Sponsor: This is a company that provides the team's uniforms and has their logo displayed on them. For example, Adidas is the kit sponsor for the Indian national men’s cricket team.
+Kit Sponsor: This is a company that provides the team's uniforms and has their logo displayed on them. For example, Adidas is the kit sponsor for the Indian national men’s cricket team.
 
 
--Umpire Sponsor: This is a company that sponsors the umpires of a league or tournament. For example, PayTM is the umpire sponsor of IPL 2022.
+Umpire Sponsor: This is a company that sponsors the umpires of a league or tournament. For example, PayTM is the umpire sponsor of IPL 2022.
 
 ![image](https://github.com/RAMANAN31/cricket-team-management-project-sql/assets/112418260/5ba88006-3a8e-4b40-9feb-6fe514e53bd0)
 
