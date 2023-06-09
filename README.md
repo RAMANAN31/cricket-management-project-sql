@@ -6,7 +6,8 @@ cricket team SQL project is a comprehensive database system designed to manage a
 Types of Sponsors:
 In cricket, there are several types of sponsors that support teams and events. Some common types of sponsors include:
 
-- Title Sponsor: This is the main sponsor of a team or event and usually has their name included in the official title. For example, TATA is the title sponsor of IPL 2022.
+
+Title Sponsor: This is the main sponsor of a team or event and usually has their name included in the official title. For example, TATA is the title sponsor of IPL 2022.
 
 
 Official Partners: These are companies that have an official partnership with a team or event and provide financial support in exchange for branding and advertising opportunities. For example, Dream11, Unacademy, CRED, Upstox, RuPay and Swiggy Instamart are official partners of IPL 2022.
