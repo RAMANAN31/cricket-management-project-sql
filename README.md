@@ -30,7 +30,12 @@ ER-Diagram:
 
 Entities:
 
-
+player:
+team:
+Conducting Board:
+Sponsor:
+Schedule:
+Equiptment:
 
 
 Relationships:
