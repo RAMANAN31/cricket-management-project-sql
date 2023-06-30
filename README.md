@@ -49,7 +49,9 @@ Equiptment:(weak entitity)
 
 RELATIONSHIPS:
 
-CREATE DATABASE:
-
+CREATE DATABASE:creates a database for the given database schema
+*create table
+*insert values into table
+*perform essential operations using table
 
 
