@@ -50,12 +50,14 @@ Equiptment:(weak entitity)
 RELATIONSHIPS:
 
 CREATE DATABASE:creates a database for the given database schema
-*create table
 
 
-*insert values into table
+*create table:(team,player,conducting board,schedule,equiptment,sponsor)
 
 
-*perform essential operations using table
+*insert values into table:(team,player,conducting board,schedule,equiptment,sponsor)
+
+
+*perform essential operations using table:(team,player,conducting board,schedule,equiptment,sponsor)
 
 
