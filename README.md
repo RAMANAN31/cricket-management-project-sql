@@ -49,7 +49,7 @@ Equiptment:(weak entitity)
 
 RELATIONSHIPS:
 
-CREATE DATABASE:creates a database for the given database schema
+CREATE DATABASE: Creates a database for the given database schema
 
 
 *create table:(team,player,conducting board,schedule,equiptment,sponsor)
