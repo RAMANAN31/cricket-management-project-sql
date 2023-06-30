@@ -38,9 +38,9 @@ Conducting Board:
 
 Sponsor:
 
-Schedule:
+Schedule:(weak entitity)
 
-Equiptment:
+Equiptment:(weak entitity)
 
 
 RELATIONSHIPS:
