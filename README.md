@@ -59,6 +59,6 @@ CREATE DATABASE: Creates a database for the given database schema
 *insert values into table:(team,player,conducting board,schedule,equiptment,sponsor)
 
 
-*perform essential operations using table:(team,player,conducting board,schedule,equiptment,sponsor)
+*perform essential database operations using table:(team,player,conducting board,schedule,equiptment,sponsor)
 
 
