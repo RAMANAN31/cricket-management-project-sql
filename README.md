@@ -29,8 +29,7 @@ Umpire Sponsor: This is a company that sponsors the umpires of a league or tourn
 
 ER-DIAGRAM:
 
-![ghj](https://github.com/RAMANAN31/cricket-team-management-project-sql/assets/112418260/9a3f99a2-a493-4192-a318-62b498f6db4f)
-
+in progress....
 
 ENTITIES:
 
@@ -48,6 +47,8 @@ Equiptment:(weak entitity)
 
 
 RELATIONSHIPS:
+
+
 
 CREATE DATABASE: Creates a database for the given database schema
 
