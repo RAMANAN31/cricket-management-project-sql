@@ -35,13 +35,13 @@ ENTITIES:
 
 player:
 
-team:
+team:(t_name,t_ID,staff_name,staff_Id,contract_period,off_addr,contact
 
-Conducting Board:
+Conducting_Board:(name,b_ID,type,revenue,expense,profit,format,s_ID referencing Sponsor(s_ID))
 
-Sponsor:
+Sponsor:(name,s_ID,type,office address
 
-Schedule:(weak entitity)
+Schedule:(weak entitity)(name,format_s foreign key referencing Conducting_board(format),shl_ID,shl_desc)
 
 Equiptment:(weak entitity)
 
