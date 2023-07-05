@@ -7,7 +7,8 @@ CREATE TABLE Player (
     plr_ID INT PRIMARY KEY,
     t_ID INT REFERENCES Team(t_ID),
     plr_contact INT,
-    plr_contract INT,
+    contract_start DATE,
+    contract_end DATE,
     plr_type VARCHAR(50)
 );
 
