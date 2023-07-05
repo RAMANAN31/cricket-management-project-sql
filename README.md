@@ -33,23 +33,30 @@ in progress....
 
 ENTITIES:
 
-player:
+player:(plr_name,plr_ID,t_name(for.key) ref team(t_ID),plr_contact,plr_contract,plr_type) (*for.key=foreign key,*ref.=referencing)
 
-team:(t_name,t_ID,staff_name,staff_Id,contract_period,off_addr,contact
+team:(t_name,t_ID,off_addr,staff_name,staff_Id,contract_period,contact,revenue,expense,profit)
 
-Conducting_Board:(name,b_ID,type,revenue,expense,profit,format,s_ID referencing Sponsor(s_ID))
+Conducting_Board:(name,b_ID,type,revenue,expense,profit,format,s_ID for.key ref.Sponsor(s_ID))
 
-Sponsor:(name,s_ID,type,office address
+Sponsor:(s_name,s_ID,type,office_address)
 
-Schedule:(weak entitity)(name,format_s foreign key referencing Conducting_board(format),shl_ID,shl_desc)
+Schedule:(name,type,format_s foreign key ref.Conducting_board(format),scl_num,scl_desc)
 
-Equiptment:(weak entitity)
+Equiptment:(weak entitity)(name,type,plr_ID(for.key ref.palyer(plr_ID),owned_by)
 
 
 RELATIONSHIPS:
 
-
-
+player plays for the team(m:1)
+player uses equiptment(1:m)
+team uses equiptment(1:m)
+player follows schedule(m:1)
+sponsor funds the team(m:1)
+sponsor funds the player(m:1)
+sponsor funds the conducting board(m:1)
+player is monitored by the conducting board(m:1)
+conducting board issues the schedule(1:1)
 CREATE DATABASE: Creates a database for the given database schema
 
 
