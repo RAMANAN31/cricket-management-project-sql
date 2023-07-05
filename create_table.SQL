@@ -19,7 +19,7 @@ CREATE TABLE Team (
     off_addr VARCHAR(100),
     staff_name VARCHAR(50),
     staff_Id INT,
-    contract_period VARCHAR(50),
+    staff_contract_period VARCHAR(50),
     contact INT,
     revenue DECIMAL(10, 2),
     expense DECIMAL(10, 2),
