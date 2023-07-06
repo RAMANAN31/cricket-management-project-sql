@@ -41,3 +41,17 @@ VALUES
     ('SLC', 9012, 'Domestic T20 Tournament', 2000000000, 9300000.950, 950000.340, 'T20', 1314, 1009),
     ('NZC', 1011, 'Domestic T20 Tournament', 2100000000, 10300000.041, 410000.450, 'T20', 1415, 1010);
 
+-- Inserting values into the Sponsor table
+INSERT INTO Sponsor (s_name, s_ID, type, office_address)
+VALUES
+    ('Byjus', 5678, 'Umpire Sponsor', '123 ABC Street, XYZ City'),
+    ('Vivo', 6789, 'Kit Sponsor', '456 DEF Street, XYZ City'),
+    ('Tata', 7890, 'Officlal Partners', '789 GHI Street, XYZ City'),
+    ('Nike', 8901, 'Official Partners', '321 JKL Street, XYZ City'),
+    ('Adidas', 9012, 'Title Sponsor', '654 MNO Street, XYZ City'),
+    ('Star Sports', 1011, 'Broadcaster', '987 PQR Street, XYZ City'),
+    ('SuperSport', 1112, 'Broadcaster', '876 STU Street, XYZ City'),
+    ('Amazon', 1213, 'Official Partners', '543 VWX Street, XYZ City'),
+    ('Google', 1314, 'Kit Sponsor', '210 YZ Street, XYZ City'),
+    ('Microsoft', 1415, 'kit Sponsor', '999 XYZ Street, XYZ City');
+
