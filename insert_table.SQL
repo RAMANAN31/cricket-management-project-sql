@@ -55,3 +55,18 @@ VALUES
     ('Google', 1314, 'Kit Sponsor', '210 YZ Street, XYZ City'),
     ('Microsoft', 1415, 'kit Sponsor', '999 XYZ Street, XYZ City');
 
+
+-- Inserting  values into the Schedule table
+INSERT INTO Schedule (name, type, format_s, scl_num, scl_desc)
+VALUES
+    ('MI vs CSK', 'League', 'T20', 12345, 'Match day 1 at Wankhede Stadium, Mumbai at 7:00 PM'),
+    ('DC vs PS', 'Qualifier', 'T20', 23456, 'Qualifier 1 at Dubai International Cricket Stadium, Dubai at 7:30 PM'),
+    ('KKR vs RCB', 'League', 'T20', 34567, 'Match day 2 at Eden Gardens, Kolkata at 7:00 PM'),
+    ('SRH vs MI', 'Eliminator', 'T20', 45678, 'Eliminator at Rajiv Gandhi International Stadium, Hyderabad at 7:30 PM'),
+    ('CSK vs DC', 'Semi-Final', 'T20', 56789, 'Semi-Final 1 at M. A. Chidambaram Stadium, Chennai at 7:00 PM'),
+    ('RCB vs SRH', 'League', 'T20', 67890, 'Match day 3 at M. Chinnaswamy Stadium, Bengaluru at 7:30 PM'),
+    ('PS vs KKR', 'Qualifier', 'T20', 78901, 'Qualifier 2 at Perth Stadium, Perth at 7:00 PM'),
+    ('MI vs RCB', 'Final', 'T20', 89012, 'Final at Wankhede Stadium, Mumbai at 7:30 PM'),
+    ('DC vs CSK', 'League', 'T20', 90123, 'Match day 4 at Feroz Shah Kotla, Delhi at 7:00 PM'),
+    ('SRH vs KKR', 'League', 'T20', 10111, 'Match day 5 at Rajiv Gandhi International Stadium, Hyderabad at 7:30 PM');
+
