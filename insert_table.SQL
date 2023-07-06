@@ -70,3 +70,20 @@ VALUES
     ('DC vs CSK', 'League', 'T20', 90123, 'Match day 4 at Feroz Shah Kotla, Delhi at 7:00 PM'),
     ('SRH vs KKR', 'League', 'T20', 10111, 'Match day 5 at Rajiv Gandhi International Stadium, Hyderabad at 7:30 PM');
 
+
+-- Inserting random values into the Equipment table
+INSERT INTO Equipment (name, type, plr_ID, owned_by, t_id)
+VALUES
+    ('Bat', 'Cricket', 1, 'Player',1001),
+    ('Ball', 'Cricket', 2, 'Player', 1001),
+    ('Helmet', 'Cricket', 3, 'Player',1003),
+    ('Gloves', 'Cricket', 4, 'Player', 1002),
+    ('Cones', 'Training', NULL, 'Team', 1001),
+    ('Fielding Gloves', 'Cricket', NULL, 'Team', 1002),
+    ('Mallet', 'Cricket', NULL, 'Team',1003),
+    ('Stumps', 'Cricket', NULL, 'Team', 1004),
+    ('foam_filled_Bats', 'training', NULL, 'Team', 1002),
+    ('Balls', 'training', NULL, 'Team',1003),
+    ('Gloves', 'training', NULL, 'Team', 1003),
+    ('Racquet', 'practice_nets', NULL, 'Team', 1004),
+    ('Balls', 'Tennis_ball_nets', NULL, 'Team', 1004)
