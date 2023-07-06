@@ -13,7 +13,7 @@ VALUES
 ('Rashid Khan', 10, 1001, 8888888888, '2022-01-01', '2023-12-31', 'Bowler'),
 ('Jasprit Bumrah', 11, 1002, 9999999999, '2022-01-01', '2025-12-31', 'Bowler');
 
--- Inserting random values into the Team table
+-- Inserting  values into the Team table
 INSERT INTO Team (t_name, t_ID, off_addr, staff_name, staff_Id, staff_contract_period, contact, revenue, expense, profit)
 VALUES
     ('Mumbai Indians', 1001, 'Mumbai, India', 'John Doe', 101, '2022-2025', 1234567890, 1000000000.00, 800000.00, 200000.00),
@@ -26,3 +26,18 @@ VALUES
     ('Melbourne Stars', 1008, 'Melbourne, Australia', 'William Davis', 108, '2022-2024', 6666666666, 800000000.00, 600000.00, 200000.00),
     ('Sunrisers Hyderabad', 1009, 'Hyderabad, India', 'Sophia Wilson', 109, '2022-2025', 7777777777, 850000000.00, 650000.00, 200000.00),
     ('Lahore Qalandars', 1010, 'Lahore, Pakistan', 'Daniel Brown', 110, '2022-2024', 8888888888, 900000000.00, 700000.00, 200000.00);
+
+-- Inserting  values into the Conducting_Board table
+INSERT INTO Conducting_Board (name, b_ID, type, revenue, expense, profit, format, s_ID, t_id)
+VALUES
+    ('ECB', 1234, 'Domestic T20 Tournament', 1200000000, 1300000.230, 230000.450, 'T20', 5678, 1001),
+    ('BCCI', 2345, 'Domestic T20 Tournament', 1300000000, 2300000.320, 320000.560, 'T20', 6789, 1002),
+    ('PCB', 3456, 'Domestic T20 Tournament', 1400000000, 3300000.410, 410000.670, 'T20', 7890, 1003),
+    ('MCC', 4567, 'Domestic T20 Tournament', 1500000000, 4300000.500, 500000.780, 'T20', 8901, 1004),
+    ('CA', 5678, 'Domestic T20 Tournament', 1600000000, 5300000.590, 590000.890, 'T20', 9012, 1005),
+    ('CNZ', 6789, 'Domestic T20 Tournament', 1700000000, 6300000.680, 680000.910, 'T20', 1011, 1006),
+    ('ICC', 7890, 'Domestic T20 Tournament', 1800000000, 7300000.770, 770000.120, 'T20', 1112, 1007),
+    ('ACB', 8901, 'Domestic T20 Tournament', 1900000000, 8300000.860, 860000.230, 'T20', 1213, 1008),
+    ('SLC', 9012, 'Domestic T20 Tournament', 2000000000, 9300000.950, 950000.340, 'T20', 1314, 1009),
+    ('NZC', 1011, 'Domestic T20 Tournament', 2100000000, 10300000.041, 410000.450, 'T20', 1415, 1010);
+
