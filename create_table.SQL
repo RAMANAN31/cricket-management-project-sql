@@ -5,7 +5,7 @@ use cricket
 CREATE TABLE Player (
     plr_name VARCHAR(50),
     plr_ID INT PRIMARY KEY,
-    t_ID INT REFERENCES Team(t_ID),
+    plr_t_ID INT REFERENCES Team(t_ID),
     plr_contact INT,
     contract_start DATE,
     contract_end DATE,
