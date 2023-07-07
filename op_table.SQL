@@ -2,8 +2,13 @@
 ALTER TABLE Player
 ADD s_ID INT REFERENCES Sponsor(s_ID);
 
+--Adding the respective board id to player
 ALTER TABLE Player
 ADD plr_b_ID INT REFERENCES conducting board(b_ID);
+
+--Adding schedule name to player
+ALTER TABLE Player
+ADD plr_sch_name VARCHAR(30) REFERENCES schedule(sch_name);
 
 -- Adding s_ID column to Teams table
 ALTER TABLE Team
