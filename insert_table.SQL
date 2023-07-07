@@ -57,7 +57,7 @@ VALUES
 
 
 -- Inserting  values into the Schedule table
-INSERT INTO Schedule (name, type, format_s, scl_num, scl_desc)
+INSERT INTO Schedule (sch_name, type, format_s, scl_num, scl_desc)
 VALUES
     ('MI vs CSK', 'League', 'T20', 12345, 'Match day 1 at Wankhede Stadium, Mumbai at 7:00 PM'),
     ('DC vs PS', 'Qualifier', 'T20', 23456, 'Qualifier 1 at Dubai International Cricket Stadium, Dubai at 7:30 PM'),
