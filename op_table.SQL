@@ -29,7 +29,7 @@ FROM Team;
 --Determine the total number of players in a team:
 SELECT COUNT(*) AS total_players
 FROM Player
-WHERE t_ID = <team_ID>;
+WHERE t_ID = <plr_t_ID>;
 
 --Retrieve the equipment used by a specific player:
 SELECT e.name AS equipment_name
