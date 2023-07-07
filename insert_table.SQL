@@ -1,5 +1,5 @@
 -- Inserting random values into the Player table
-INSERT INTO Player (plr_name, plr_ID, t_ID, plr_contact, contract_start, contract_end, plr_type)
+INSERT INTO Player (plr_name, plr_ID, plr_t_ID, plr_contact, contract_start, contract_end, plr_type)
 VALUES
 ('John Smith', 1, 1001, 1234567890, '2022-01-01', '2023-12-31', 'Batsman'),
 ('David Warner', 2, 1002, 9876543210, '2022-01-01', '2025-12-31', 'Batsman'),
