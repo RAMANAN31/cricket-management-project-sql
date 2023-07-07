@@ -34,31 +34,31 @@ WHERE t_ID = <plr_t_ID>;
 --Retrieve the equipment used by a specific player:
 SELECT e.name AS equipment_name
 FROM Equipment e
-WHERE e.plr_ID = <player_ID>;
+WHERE e.plr_ID = <plr_ID>;
 
 --Calculate the total funding provided by a sponsor to a team:
 SELECT SUM(revenue) AS total_funding
 FROM Team
-WHERE s_ID = <sponsor_ID>;
+WHERE s_ID = <s_ID>;
 
 --Calculate the total funding provided by a sponsor to a player:
 SELECT SUM(revenue) AS total_funding
 FROM Player
-WHERE s_ID = <sponsor_ID>;
+WHERE s_ID = <s_ID>;
 
 --Calculate the total funding provided by a sponsor to the conducting board:
 SELECT SUM(revenue) AS total_funding
 FROM Conducting_Board
-WHERE s_ID = <sponsor_ID>;
+WHERE s_ID = <s_ID>;
 
 --Retrieve the schedule followed by a specific player:
 SELECT s.name AS schedule_name
 FROM Schedule s
-WHERE s.name = <player_schedule_name>;
+WHERE s.name = <plr_sch_name>;
 
 --Retrieve the conducting board responsible for monitoring a specific player:
 SELECT cb.name AS conducting_board_name
 FROM Conducting_Board cb
-WHERE cb.b_ID = <player_board_ID>;
+WHERE cb.b_ID = <plr_b_ID>;
 
 
