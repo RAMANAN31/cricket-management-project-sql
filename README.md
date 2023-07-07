@@ -29,7 +29,8 @@ Umpire Sponsor: This is a company that sponsors the umpires of a league or tourn
 
 ER-DIAGRAM:
 
-in progress....
+![cricket_management_project](https://github.com/RAMANAN31/cricket-management-project-sql/assets/112418260/c07be31d-e6e0-491b-9f7b-25b494bdcc6e)
+
 
 ENTITIES:
 
