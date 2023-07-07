@@ -2,6 +2,9 @@
 ALTER TABLE Player
 ADD s_ID INT REFERENCES Sponsor(s_ID);
 
+ALTER TABLE Player
+ADD plr_b_ID INT REFERENCES conducting board(b_ID);
+
 -- Adding s_ID column to Teams table
 ALTER TABLE Team
 ADD s_ID INT REFERENCES Sponsor(s_ID);
