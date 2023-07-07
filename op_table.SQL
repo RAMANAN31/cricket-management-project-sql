@@ -58,7 +58,7 @@ WHERE s.name = <plr_sch_name>;
 
 --Retrieve the conducting board responsible for monitoring a specific player:
 SELECT cb.name AS conducting_board_name
-FROM Conducting_Board cb
-WHERE cb.b_ID = <plr_b_ID>;
+FROM Conducting_Board 
+WHERE b_ID = <plr_b_ID>;
 
 
