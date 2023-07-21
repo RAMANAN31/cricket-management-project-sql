@@ -1,5 +1,12 @@
-1.You are required to modify the 'Player' table by adding a new column called 's_ID'. The 's_ID' column should reference the 's_ID' column from the 'Sponsor' table. Write the SQL code to achieve this modification and explain the purpose of adding this column in relation to the 'Sponsor' table.
+1.You are required to modify the 'Player' table by adding a new column called 's_ID'.
+The 's_ID' column should reference the 's_ID' column from the 'Sponsor' table.
+Write the SQL code to achieve this modification and explain the purpose of 
+adding this column in relation to the 'Sponsor' table.
 
-2.write the SQL code to modify the 'Player' table and add a new column called 'plr_b_ID'. The 'plr_b_ID' column should be of type 'INT' and it should reference the 'b_ID' column from the 'conducting board' table. Explain the purpose of this modification in the context of the 'Player' and 'conducting board' tables.
+2.write the SQL code to modify the 'Player' table and add a new column called 'plr_b_ID'.
+The 'plr_b_ID' column should be of type 'INT' and it should reference the 'b_ID' column from the 'conducting board' table.
+Explain the purpose of this modification in the context of the 'Player' and 'conducting board' tables.
 
-3. provide the SQL code to alter the 'Player' table and introduce a new column named 'plr_sch_name'. The 'plr_sch_name' column should be of type 'VARCHAR(30)' and it should be linked to the 'sch_name' column from the 'schedule' table. Describe the significance of including this new column and how it enhances the relationship between the 'Player' and 'schedule' tables.
+3. provide the SQL code to alter the 'Player' table and introduce a new column named 'plr_sch_name'.
+The 'plr_sch_name' column should be of type 'VARCHAR(30)' and
+it should be linked to the 'sch_name' column from the 'schedule' table. Describe the significance of including this new column and how it enhances the relationship between the 'Player' and 'schedule' tables.
