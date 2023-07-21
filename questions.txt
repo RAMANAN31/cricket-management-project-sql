@@ -9,4 +9,5 @@ Explain the purpose of this modification in the context of the 'Player' and 'con
 
 3. provide the SQL code to alter the 'Player' table and introduce a new column named 'plr_sch_name'.
 The 'plr_sch_name' column should be of type 'VARCHAR(30)' and
-it should be linked to the 'sch_name' column from the 'schedule' table. Describe the significance of including this new column and how it enhances the relationship between the 'Player' and 'schedule' tables.
+it should be linked to the 'sch_name' column from the 'schedule' table.
+Describe the significance of including this new column and how it enhances the relationship between the 'Player' and 'schedule' tables.
