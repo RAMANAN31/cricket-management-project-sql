@@ -20,3 +20,20 @@ and explain the purpose of adding this column in relation to the 'Sponsor' table
 
 6.In your database, there is a 'Team' table that stores data about different teams and their expenses. Write an SQL query to calculate the total expense incurred by all teams and provide the result under the alias 'total_expense'.
 Each of these questions addresses a specific task or operation related to the SQL code provided. They require understanding of SQL concepts and the ability to apply the appropriate SQL syntax to achieve the desired results.
+
+7.You have a 'Team' table that contains data about various teams, including their revenues and expenses. Write an SQL query to calculate the total profit earned by each team, which is the difference between their total revenue and total expenses. Display the result under the alias 'total_profit'.
+
+8. In your database, there is a 'Player' table that stores information about players, including their team IDs. Write an SQL query to determine the total number of players in a specific team, identified by the value of 'plr_t_ID'. Display the result under the alias 'total_players'.
+
+9.Your database has an 'Equipment' table that stores details about the equipment used by players, and the 'Player' table contains information about players, including their IDs. Write an SQL query to retrieve the name of the equipment used by a specific player, identified by the value of 'plr_ID'. Display the result under the alias 'equipment_name'.
+
+10.You have a 'Team' table that includes data about different teams and the sponsor IDs associated with them. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all teams they sponsor. Display the result under the alias 'total_funding'.
+
+11.In your database, the 'Player' table contains details about players, including their sponsor IDs. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all players they sponsor. Display the result under the alias 'total_funding'.
+
+12.Your database includes a 'Conducting_Board' table that holds data about different conducting boards and the sponsor IDs associated with them. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all conducting boards they are responsible for. Display the result under the alias 'total_funding'.
+
+13.The 'Schedule' table in your database stores information about various schedules, and the 'Player' table includes the schedule names followed by players. Write an SQL query to retrieve the name of the schedule followed by a specific player, identified by the value of 'plr_sch_name'. Display the result under the alias 'schedule_name'.
+
+14.In your database, the 'Conducting_Board' table contains data about different conducting boards, including their names and unique board IDs. Write an SQL query to retrieve the name of the conducting board responsible for monitoring a specific player, identified by the value of 'plr_b_ID'. Display the result under the alias 'conducting_board_name'.
+
