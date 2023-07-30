@@ -29,11 +29,24 @@ Each of these questions addresses a specific task or operation related to the SQ
 
 10.You have a 'Team' table that includes data about different teams and the sponsor IDs associated with them. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all teams they sponsor. Display the result under the alias 'total_funding'.
 
-11.In your database, the 'Player' table contains details about players, including their sponsor IDs. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all players they sponsor. Display the result under the alias 'total_funding'.
+11.In your database, the 'Player' table contains details about players,
+including their sponsor IDs. 
+Write an SQL query to calculate the total funding provided by a specific sponsor,
+identified by the value of 's_ID', to all players they sponsor. Display the result under the alias 'total_funding'.
 
-12.Your database includes a 'Conducting_Board' table that holds data about different conducting boards and the sponsor IDs associated with them. Write an SQL query to calculate the total funding provided by a specific sponsor, identified by the value of 's_ID', to all conducting boards they are responsible for. Display the result under the alias 'total_funding'.
+12.Your database includes a 'Conducting_Board' table that holds data about different 
+conducting boards and the sponsor IDs associated with them. 
+Write an SQL query to calculate the total funding provided by a specific sponsor, 
+identified by the value of 's_ID', to all conducting boards they are responsible for. 
+Display the result under the alias 'total_funding'.
 
-13.The 'Schedule' table in your database stores information about various schedules, and the 'Player' table includes the schedule names followed by players. Write an SQL query to retrieve the name of the schedule followed by a specific player, identified by the value of 'plr_sch_name'. Display the result under the alias 'schedule_name'.
+13.The 'Schedule' table in your database stores information about various schedules, and the 'Player' 
+table includes the schedule names followed by players. Write an SQL query to retrieve
+the name of the schedule followed by a specific player,
+identified by the value of 'plr_sch_name'. Display the result under the alias 'schedule_name'.
 
-14.In your database, the 'Conducting_Board' table contains data about different conducting boards, including their names and unique board IDs. Write an SQL query to retrieve the name of the conducting board responsible for monitoring a specific player, identified by the value of 'plr_b_ID'. Display the result under the alias 'conducting_board_name'.
+14.In your database, the 'Conducting_Board' table contains data about different conducting boards,
+including their names and unique board IDs. Write an SQL query to retrieve the name of the 
+conducting board responsible for monitoring a specific player, identified by the value of 'plr_b_ID'.
+Display the result under the alias 'conducting_board_name'.
 
