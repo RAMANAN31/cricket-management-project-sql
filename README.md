@@ -49,21 +49,13 @@ Equiptment:(weak entitity)(name,type,plr_ID(for.key ref.palyer(plr_ID),owned_by)
 
 RELATIONSHIPS:
 
-player plays for the team(m:1)
+player plays for the team(m:1) player uses equiptment(1:m)
 
-player uses equiptment(1:m)
+team uses equiptment(1:m) player follows schedule(m:1)
 
-team uses equiptment(1:m)
+sponsor funds the team(m:1)  sponsor funds the player(m:1)
 
-player follows schedule(m:1)
-
-sponsor funds the team(m:1)
-
-sponsor funds the player(m:1)
-
-sponsor funds the conducting board(m:1)
-
-player is monitored by the conducting board(m:1)
+sponsor funds the conducting board(m:1) player is monitored by the conducting board(m:1)
 
 conducting board issues the schedule(1:1)
 
