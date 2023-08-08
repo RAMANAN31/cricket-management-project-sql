@@ -9,6 +9,8 @@ cricket team SQL project is a comprehensive database system designed to manage a
 
 Types of Sponsors
 (Data taken form the IPL 2022 season)
+
+
 In cricket, there are several types of sponsors that support teams and events. Some common types of sponsors include:
 
 
