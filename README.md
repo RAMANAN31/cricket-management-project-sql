@@ -35,42 +35,8 @@ ER-DIAGRAM:
 ![cricket_management_project](https://github.com/RAMANAN31/cricket-management-project-sql/assets/112418260/c07be31d-e6e0-491b-9f7b-25b494bdcc6e)
 
 ![WhatsApp Image 2023-07-07 at 21 34 35](https://github.com/RAMANAN31/cricket-management-project-sql/assets/112418260/7c9b42dd-5437-4a28-8870-eab95b1361bb)
-ENTITIES:
-
-player:(plr_name,plr_ID,t_name(for.key) ref team(t_ID),plr_contact,plr_contract,plr_type) (*for.key=foreign key,*ref.=referencing)
-
-team:(t_name,t_ID,off_addr,staff_name,staff_Id,contract_period,contact,revenue,expense,profit)
-
-Conducting_Board:(name,b_ID,type,revenue,expense,profit,format,s_ID for.key ref.Sponsor(s_ID))
-
-Sponsor:(s_name,s_ID,type,office_address)
-
-Schedule:(name,type,format_s foreign key ref.Conducting_board(format),scl_num,scl_desc)
-
-Equiptment:(weak entitity)(name,type,plr_ID(for.key ref.palyer(plr_ID),owned_by)
 
 
-RELATIONSHIPS:
 
-player plays for the team(m:1) player uses equiptment(1:m)
-
-team uses equiptment(1:m) player follows schedule(m:1)
-
-sponsor funds the team(m:1)  sponsor funds the player(m:1)
-
-sponsor funds the conducting board(m:1) player is monitored by the conducting board(m:1)
-
-conducting board issues the schedule(1:1)
-
-CREATE DATABASE: Creates a database for the given database schema
-
-
-*create table:(team,player,conducting board,schedule,equiptment,sponsor)
-
-
-*insert values into table:(team,player,conducting board,schedule,equiptment,sponsor)
-
-
-*perform essential database operations using table:(team,player,conducting board,schedule,equiptment,sponsor)
 
 
