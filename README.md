@@ -65,7 +65,7 @@ Questionnaire → 2. Player Response → 3. NLP Model (BERT) → 4. Contextual E
 
 
 
-##Example:
+Example:
 Question: "How do you feel about your ability to focus under pressure?"
 
 Player Response: "I feel confident, but sometimes I get distracted."
