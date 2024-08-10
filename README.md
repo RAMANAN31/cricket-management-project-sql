@@ -64,9 +64,12 @@ ecific sports by including sport-specific language and scenarios in the training
 Questionnaire → 2. Player Response → 3. NLP Model (BERT) → 4. Contextual Embeddings → 5. Regression/Classification Model → 6. Predicted Mental Fitness Score
 
 
-Example:
+
+##Example:
 Question: "How do you feel about your ability to focus under pressure?"
+
 Player Response: "I feel confident, but sometimes I get distracted."
+
 Model Output: Mental Fitness Score: 75 (on a scale of 0-100).
 
 
