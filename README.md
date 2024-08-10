@@ -1,6 +1,6 @@
 # cricket-management-project-sql
 ABOUT:
-cricket team SQL project is a comprehensive database system designed to manage and organize information about the team, including players, matches, and statistics. We have added a new entity to our database: The Sponsor. Sponsors are individuals or organizations that provide financial support to the team. Each sponsor has a unique ID, name, office address, and type. This new addition allows us to keep track of the sponsors and their contributions to the team. With this information at our fingertips, we can better manage our finances and build stronger relationships with our supporters.
+This  project is a comprehensive database system designed to manage and organize information about the team, including players, matches, and statistics. We have added a new entity to our database: The Sponsor. Sponsors are individuals or organizations that provide financial support to the team. Each sponsor has a unique ID, name, office address, and type. This new addition allows us to keep track of the sponsors and their contributions to the team. With this information at our fingertips, we can better manage our finances and build stronger relationships with our supporters.
 
 
 
